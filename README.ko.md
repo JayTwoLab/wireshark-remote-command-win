@@ -67,5 +67,5 @@
 		- PLINK_PATH : 설치된 와이어샤크 plink 파일이 있는 경로 (plink.exe).
 
 ### 문의
-* [https://github.com/j2doll/QXlsx](https://github.com/j2doll)
+* [https://github.com/j2doll](https://github.com/j2doll)
 * [j2doll@gmail.com](mailto:j2doll@gmail.com)

@@ -67,6 +67,6 @@
 		- PLINK_PATH : This is where you installed putty plink execute file (plink.exe).
 
 ### Contacts
-* [https://github.com/j2doll/QXlsx](https://github.com/j2doll)
+* [https://github.com/j2doll](https://github.com/j2doll)
 * [j2doll@gmail.com](mailto:j2doll@gmail.com)
 * Hi! I'm j2doll. My native language is not English and my English is not fluent. Please, use EASY English. :-)	
