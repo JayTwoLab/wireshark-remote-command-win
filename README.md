@@ -60,4 +60,4 @@
 	- REMOTE_ACCOUNT : linux account 
 	- REMOTE_PASSWORD : password of linux account
 	- REMOTE_INTERFACE : linux ethernet interface (such as eth0, wlan0, etc)
-		- If you don't know this, type command 'ifconfig' on your linux.
+		- If you don't know this, type command '<b>ifconfig</b>' on your linux.
