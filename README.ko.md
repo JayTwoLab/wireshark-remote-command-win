@@ -22,7 +22,7 @@
 - [tcpdump](http://www.tcpdump.org/)
 	- sudo yum install tupcump (Fedora, CentOS, Redhat)
 	- sudo apt-get install tcpdump (Ubuntu, Debian)
-	- 또는 소스코드를 이용하여 설치도 가능합니다. [http://www.tcpdump.org/](http://www.tcpdump.org/)	
+	- 또는 소스코드를 이용하여 설치도 가능합니다. [http://www.tcpdump.org/](http://www.tcpdump.org/)
 - pcap
 	- 대부분의 경우 tcpdump를 설치하면 함께 설치 됩니다.
 	- sudo yum install libpcap (Fedora, CentOS, Redhat)
@@ -38,37 +38,40 @@
 
 ### 윈도우즈에서 명령 제작
 - 다음과 같은 명령 파일(*.cmd)을 작성합니다:
-	
+
 ```
-@REM ---------------------------------------------------- 
+@REM ----------------------------------------------------
 @REM remotecap.cmd
 @REM   Example command for captruing eremote network packet
-@REM  using wireshark and tcpdump. 
-@REM   First written by j2doll. September 10th 2016. 
+@REM  using wireshark and tcpdump.
+@REM   First written by j2doll. September 10th 2016.
 @REM   https://github.com/j2doll/wireshark-remote-command-win
 @REM   http://j2doll.tistory.com
-@REM ---------------------------------------------------- 
-@REM install putty and wireshark on your windows pc. 
-@SET PLINK_PATH="C:\Program Files\PuTTY\plink.exe" 
-@SET WIRESHARK_PATH="C:\Program Files\Wireshark\Wireshark.exe" 
-@SET REMOTE_SERVER=192.168.0.10 
-@SET REMOTE_ACCOUNT=root 
-@SET REMOTE_PASSWORD=password1234 
-@SET REMOTE_INTERFACE=eth0 
-@REM execute command 
+@REM ----------------------------------------------------
+@REM install putty and wireshark on your windows pc.
+@SET PLINK_PATH="C:\Program Files\PuTTY\plink.exe"
+@SET WIRESHARK_PATH="C:\Program Files\Wireshark\Wireshark.exe"
+@SET REMOTE_SERVER=192.168.0.10
+@SET REMOTE_ACCOUNT=root
+@SET REMOTE_PASSWORD=password1234
+@SET REMOTE_INTERFACE=eth0
+@REM execute command
 %PLINK_PATH% -ssh -pw %REMOTE_PASSWORD% %REMOTE_ACCOUNT%@%REMOTE_SERVER% "tcpdump -s0 -U -w - -i %REMOTE_INTERFACE% not port 22" | %WIRESHARK_PATH% -i - -k
 ```
-	
+
 - 환경 변수를 환경에 맞추어 변경할 수 있습니다.
 	- 리눅스
 		- REMOTE_SERVER : 리눅스 ip (192.168.137.18 등)
-		- REMOTE_ACCOUNT : 리눅스 계정 
+		- REMOTE_ACCOUNT : 리눅스 계정
 		- REMOTE_PASSWORD : 리눅스 계정의 암호
 		- REMOTE_INTERFACE : 리눅스 이더넷 인터페이스 (eth0, wlan0 등)
 			- 만약 이것이 무엇인지 모르시면 '<b>ifconfig</b>' 명령을 리눅스에서 입력해 보세요.
 	- 윈도우즈
 		- WIRESHARK_PATH : 설치된 와이어샤크 실행 파일이 있는 경로 (wireshark.exe).
 		- PLINK_PATH : 설치된 와이어샤크 plink 파일이 있는 경로 (plink.exe).
+
+### 패킷 캡풔하는 방법
+- 윈도우즈에서 'remotecap.cmd'를 실행 하세요. 윈도우즈가 방화벽 정책을 물어볼 수도 있습니다.
 
 ### 문의
 * [https://github.com/j2doll](https://github.com/j2doll)
