@@ -2,7 +2,11 @@
 
 > *Read this in other languages: [English](README.md), [한국어](README.ko.md)*
 
+### Concept
 - It is a command to capture packets in the following environment.
+![](markdown.data/concept.jpg)
+- If your Linux has no GUI, analyzing packets is difficult. 
+- You can use this commnad file, then you can perform analysis in Windows.
 
 ### Windows (My PC, Host OS)
 - How to install program

@@ -2,7 +2,11 @@
 
 > *Read this in other languages: [English](README.md), [한국어](README.ko.md)*
 
+### 개념
 - 다음과 같은 환경에서 패킷을 캡춰하는 명령입니다.
+![](markdown.data/concept.jpg)
+- 리눅스에 GUI가 없다면, 패킷 분석은 어렵습니다.
+- 이 명령 파일을 사용하면 Windows에서 분석을 수행 할 수 있습니다.
 
 ### 윈도우즈 (내 PC, 호스트 운영체제)
 - 프로그램 설치하는 방법
