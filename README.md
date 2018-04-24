@@ -55,11 +55,18 @@
 %PLINK_PATH% -ssh -pw %REMOTE_PASSWORD% %REMOTE_ACCOUNT%@%REMOTE_SERVER% "tcpdump -s0 -U -w - -i %REMOTE_INTERFACE% not port 22" | %WIRESHARK_PATH% -i - -k
 ```
 	
-- You can fix variables for your linux environemnt.
-	- REMOTE_SERVER : linux ip (such as 192.168.137.18)
-	- REMOTE_ACCOUNT : linux account 
-	- REMOTE_PASSWORD : password of linux account
-	- REMOTE_INTERFACE : linux ethernet interface (such as eth0, wlan0, etc)
-		- If you don't know this, type command '<b>ifconfig</b>' on your linux.
-	- WIRESHARK_PATH : This is where you installed wireshark execute file (wireshark.exe).
-	- PLINK_PATH : This is where you installed putty plink execute file (plink.exe).
+- You can fix variables for your environemnt.
+	- Your Linux
+		- REMOTE_SERVER : linux ip (such as 192.168.137.18)
+		- REMOTE_ACCOUNT : linux account 
+		- REMOTE_PASSWORD : password of linux account
+		- REMOTE_INTERFACE : linux ethernet interface (such as eth0, wlan0, etc)
+			- If you don't know this, type command '<b>ifconfig</b>' on your linux.
+	- Your Windows
+		- WIRESHARK_PATH : This is where you installed wireshark execute file (wireshark.exe).
+		- PLINK_PATH : This is where you installed putty plink execute file (plink.exe).
+
+### Contacts
+* [https://github.com/j2doll/QXlsx](https://github.com/j2doll)
+* [j2doll@gmail.com](mailto:j2doll@gmail.com)
+* Hi! I'm j2doll. My native language is not English and my English is not fluent. Please, use EASY English. :-)	
