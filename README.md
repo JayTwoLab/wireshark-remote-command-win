@@ -61,3 +61,5 @@
 	- REMOTE_PASSWORD : password of linux account
 	- REMOTE_INTERFACE : linux ethernet interface (such as eth0, wlan0, etc)
 		- If you don't know this, type command '<b>ifconfig</b>' on your linux.
+	- WIRESHARK_PATH : This is where you installed wireshark execute file (wireshark.exe).
+	- PLINK_PATH : This is where you installed putty plink execute file (plink.exe).
