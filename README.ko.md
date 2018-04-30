@@ -70,7 +70,7 @@
 		- WIRESHARK_PATH : 설치된 와이어샤크 실행 파일이 있는 경로 (wireshark.exe).
 		- PLINK_PATH : 설치된 와이어샤크 plink 파일이 있는 경로 (plink.exe).
 
-### 패킷 캡풔하는 방법
+### 패킷 캡춰하는 방법
 - 윈도우즈에서 'remotecap.cmd'를 실행 하세요. 윈도우즈가 방화벽 정책을 물어볼 수도 있습니다.
 
 ### 문의
