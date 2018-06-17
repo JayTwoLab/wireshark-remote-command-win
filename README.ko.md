@@ -74,5 +74,4 @@
 - 윈도우즈에서 'remotecap.cmd'를 실행 하세요. 윈도우즈가 방화벽 정책을 물어볼 수도 있습니다.
 
 ### 문의
-* [https://github.com/j2doll](https://github.com/j2doll)
-* [j2doll@gmail.com](mailto:j2doll@gmail.com)
+* 이슈를 남겨 주세요. [https://github.com/j2doll/wireshark-remote-command-win/issues](https://github.com/j2doll/wireshark-remote-command-win/issues)

@@ -73,7 +73,6 @@
 ### How to capture packet
 - Just run 'remotecap.cmd' on Windows. Windows may ask to you about firewall policy of Windows.
 
-### Contacts
-* [https://github.com/j2doll](https://github.com/j2doll)
-* [j2doll@gmail.com](mailto:j2doll@gmail.com)
-* Hi! I'm j2doll. My native language is not English and my English is not fluent. Please, use EASY English. :-)
+### Contact
+* Leave me a issue. [https://github.com/j2doll/wireshark-remote-command-win/issues](https://github.com/j2doll/wireshark-remote-command-win/issues)
+* Hi! I'm j2doll (aka Jay Two). My native language is not English and my English is not fluent. Please, use EASY English. :-)
