@@ -39,7 +39,7 @@
 ### 윈도우즈에서 명령 제작
 - 다음과 같은 명령 파일(*.cmd)을 작성합니다:
 
-```
+```cmd
 @REM ----------------------------------------------------
 @REM remotecap.cmd
 @REM   Example command for captruing eremote network packet
