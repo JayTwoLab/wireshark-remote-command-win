@@ -39,7 +39,7 @@
 ### Create command file on Windows
 - Build the command file(*.cmd) as follows:
 
-```
+```cmd
 @REM ----------------------------------------------------
 @REM remotecap.cmd
 @REM   Example command for captruing eremote network packet
