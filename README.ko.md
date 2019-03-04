@@ -1,4 +1,4 @@
-# 윈도우즈에서 와이어샤크를 이용한 원격 패킷 켭춰
+# 윈도우즈에서 와이어샤크를 이용한 원격 패킷 캡춰
 
 > *Read this in other languages: [English](README.md), [한국어](README.ko.md)*
 
