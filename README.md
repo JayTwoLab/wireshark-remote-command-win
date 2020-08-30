@@ -16,6 +16,9 @@
 - [putty](https://www.putty.org/)
 	- Download from [https://www.chiark.greenend.org.uk/~sgtatham/putty/](https://www.chiark.greenend.org.uk/~sgtatham/putty/)
 	- Check your windows type(32bit/64bit), then install putty (NOTICE: You should not confuse the type!)
+	- **NOTICE : Use old putty!**
+	   - https://the.earth.li/~sgtatham/putty/0.68/w32/putty-0.68-installer.msi
+	   - https://the.earth.li/~sgtatham/putty/0.68/w64/putty-64bit-0.68-installer.msi
 
 ### Linux (Remote System, Target OS)
 - How to install program

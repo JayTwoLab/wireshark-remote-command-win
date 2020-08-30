@@ -16,6 +16,9 @@
 - [putty](https://www.putty.org/)
 	- [https://www.chiark.greenend.org.uk/~sgtatham/putty/](https://www.chiark.greenend.org.uk/~sgtatham/putty/) 에서 프로그램 다운로드
 	- 윈도우즈 종류(32bit/64bit)를 선택한 후, 푸티를 설치한다. (주의: 종류를 혼동하시면 안됩니다!)
+	- **NOTICE : 구형 putty 를 사용하세요!**
+	   - https://the.earth.li/~sgtatham/putty/0.68/w32/putty-0.68-installer.msi
+	   - https://the.earth.li/~sgtatham/putty/0.68/w64/putty-64bit-0.68-installer.msi	
 
 ### 리눅스 (원격 시스템, 대상 운용체제)
 - 프로그램 설치하는 방법
