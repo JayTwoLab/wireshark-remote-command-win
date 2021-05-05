@@ -13,7 +13,7 @@
 - [Wireshark](https://www.wireshark.org)
 	- Download from [https://www.wireshark.org/download.html](https://www.wireshark.org/download.html)
 	- Check your windows type(32bit/64bit), then install wireshark. (NOTICE: You should not confuse the type!)
-	- **NOTICE : wireshark 2.4.6 **
+	- **NOTICE : Use wireshark 2.4.6**
 	   - https://www.wireshark.org/download/win64/all-versions/
 - [putty](https://www.putty.org/)
 	- Download from [https://www.chiark.greenend.org.uk/~sgtatham/putty/](https://www.chiark.greenend.org.uk/~sgtatham/putty/)
