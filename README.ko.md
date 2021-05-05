@@ -13,7 +13,7 @@
 - [Wireshark](https://www.wireshark.org)
 	- [https://www.wireshark.org/download.html](https://www.wireshark.org/download.html) 에서 프로그램 다운로드
 	- 윈도우즈 종류(32bit/64bit)를 선택한 후, 와이어샤크를 설치한다. (주의: 종류를 혼동하시면 안됩니다!)
-	- **NOTICE : wireshark 2.4.6**
+	- **NOTICE : wireshark 2.4.6를 사용하세요.**
 	   - https://www.wireshark.org/download/win64/all-versions/
 - [putty](https://www.putty.org/)
 	- [https://www.chiark.greenend.org.uk/~sgtatham/putty/](https://www.chiark.greenend.org.uk/~sgtatham/putty/) 에서 프로그램 다운로드
