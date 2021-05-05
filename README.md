@@ -13,6 +13,8 @@
 - [Wireshark](https://www.wireshark.org)
 	- Download from [https://www.wireshark.org/download.html](https://www.wireshark.org/download.html)
 	- Check your windows type(32bit/64bit), then install wireshark. (NOTICE: You should not confuse the type!)
+	- **NOTICE : wireshark 2.4.6 **
+	   - https://www.wireshark.org/download/win64/all-versions/
 - [putty](https://www.putty.org/)
 	- Download from [https://www.chiark.greenend.org.uk/~sgtatham/putty/](https://www.chiark.greenend.org.uk/~sgtatham/putty/)
 	- Check your windows type(32bit/64bit), then install putty (NOTICE: You should not confuse the type!)
@@ -65,7 +67,7 @@
 - You can fix variables for your environemnt.
 	- Your Linux
 		- REMOTE_SERVER : linux ip (such as 192.168.137.18)
-		- REMOTE_ACCOUNT : linux account
+		- REMOTE_ACCOUNT : linux account (**Use root account. (or superuser)**)
 		- REMOTE_PASSWORD : password of linux account
 		- REMOTE_INTERFACE : linux ethernet interface (such as eth0, wlan0, etc)
 			- If you don't know this, type command '<b>ifconfig</b>' on your linux.
