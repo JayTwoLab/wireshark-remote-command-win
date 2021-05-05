@@ -13,6 +13,8 @@
 - [Wireshark](https://www.wireshark.org)
 	- [https://www.wireshark.org/download.html](https://www.wireshark.org/download.html) 에서 프로그램 다운로드
 	- 윈도우즈 종류(32bit/64bit)를 선택한 후, 와이어샤크를 설치한다. (주의: 종류를 혼동하시면 안됩니다!)
+	- **NOTICE : wireshark 2.4.6 **
+	   - https://www.wireshark.org/download/win64/all-versions/
 - [putty](https://www.putty.org/)
 	- [https://www.chiark.greenend.org.uk/~sgtatham/putty/](https://www.chiark.greenend.org.uk/~sgtatham/putty/) 에서 프로그램 다운로드
 	- 윈도우즈 종류(32bit/64bit)를 선택한 후, 푸티를 설치한다. (주의: 종류를 혼동하시면 안됩니다!)
@@ -65,7 +67,7 @@
 - 환경 변수를 환경에 맞추어 변경할 수 있습니다.
 	- 리눅스
 		- REMOTE_SERVER : 리눅스 ip (192.168.137.18 등)
-		- REMOTE_ACCOUNT : 리눅스 계정
+		- REMOTE_ACCOUNT : 리눅스 계정 (**root 계정을 사용하세요. (또는 슈퍼유저)**)
 		- REMOTE_PASSWORD : 리눅스 계정의 암호
 		- REMOTE_INTERFACE : 리눅스 이더넷 인터페이스 (eth0, wlan0 등)
 			- 만약 이것이 무엇인지 모르시면 '<b>ifconfig</b>' 명령을 리눅스에서 입력해 보세요.
