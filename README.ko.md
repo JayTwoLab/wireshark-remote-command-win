@@ -2,13 +2,15 @@
 
 > *Read this in other languages: [English](README.md), [한국어](README.ko.md)*
 
-### 개념
+## 개념
+
 - 다음과 같은 환경에서 패킷을 캡춰하는 명령입니다.
 ![](markdown.data/concept.jpg)
 - 리눅스에 GUI가 없다면, 패킷 분석은 어렵습니다.
 - 이 명령 파일을 사용하면 Windows에서 분석을 수행 할 수 있습니다.
 
-### 윈도우즈 (내 PC, 호스트 운영체제)
+## 윈도우즈 (내 PC, 호스트 운영체제)
+
 - 프로그램 설치하는 방법
 - [Wireshark](https://www.wireshark.org)
 	- [https://www.wireshark.org/download.html](https://www.wireshark.org/download.html) 에서 프로그램 다운로드
@@ -22,7 +24,8 @@
 	   - https://the.earth.li/~sgtatham/putty/0.68/w32/putty-0.68-installer.msi
 	   - https://the.earth.li/~sgtatham/putty/0.68/w64/putty-64bit-0.68-installer.msi	
 
-### 리눅스 (원격 시스템, 대상 운용체제)
+## 리눅스 (원격 시스템, 대상 운용체제)
+
 - 프로그램 설치하는 방법
 - [tcpdump](http://www.tcpdump.org/)
 	- sudo yum install tupcump (Fedora, CentOS, Redhat)
@@ -41,7 +44,8 @@
 			- sudo systemctl start sshd.service (openssh 서버 구동)
 			- sudo systemctl enable sshd.service (openssh 서버 사용 가능)
 
-### 윈도우즈에서 명령 제작
+## 윈도우즈에서 명령 제작
+
 - 다음과 같은 명령 파일(*.cmd)을 작성합니다:
 
 ```cmd
@@ -75,8 +79,10 @@
 		- WIRESHARK_PATH : 설치된 와이어샤크 실행 파일이 있는 경로 (wireshark.exe).
 		- PLINK_PATH : 설치된 와이어샤크 plink 파일이 있는 경로 (plink.exe).
 
-### 패킷 캡춰하는 방법
+## 패킷 캡춰하는 방법
+
 - 윈도우즈에서 'remotecap.cmd'를 실행 하세요. 윈도우즈가 방화벽 정책을 물어볼 수도 있습니다.
 
-### 문의
+## 문의
+
 * 이슈를 남겨 주세요. [https://github.com/j2doll/wireshark-remote-command-win/issues](https://github.com/j2doll/wireshark-remote-command-win/issues)
