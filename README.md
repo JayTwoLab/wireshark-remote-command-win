@@ -14,12 +14,12 @@
 - How to install program
 - [Wireshark](https://www.wireshark.org)
   - Download from [https://www.wireshark.org/download.html](https://www.wireshark.org/download.html)
-  - Check your windows type(32bit/64bit), then install wireshark. (NOTICE: You should not confuse the type!)
+  - Check your windows type (32bit/64bit), then install wireshark. (NOTICE: You should not confuse the type!)
   - **NOTICE : Use wireshark 2.4.6**
     - <https://www.wireshark.org/download/win64/all-versions/>
 - [putty](https://www.putty.org/)
   - Download from [https://www.chiark.greenend.org.uk/~sgtatham/putty/](https://www.chiark.greenend.org.uk/~sgtatham/putty/)
-  - Check your windows type(32bit/64bit), then install putty (NOTICE: You should not confuse the type!)
+  - Check your windows type (32bit/64bit), then install putty (NOTICE: You should not confuse the type!)
   - **NOTICE : Use old putty!**
     - <https://the.earth.li/~sgtatham/putty/0.68/w32/putty-0.68-installer.msi>
     - <https://the.earth.li/~sgtatham/putty/0.68/w64/putty-64bit-0.68-installer.msi>

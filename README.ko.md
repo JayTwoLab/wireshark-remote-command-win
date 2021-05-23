@@ -29,7 +29,7 @@
 ### Installation
 
 - [tcpdump](http://www.tcpdump.org/)
-  - `sudo yum install tupcump` (Fedora, CentOS, Redhat)
+  - `sudo yum install tcpdump` (Fedora, CentOS, Redhat)
   - `sudo apt-get install tcpdump` (Ubuntu, Debian)
   - 또는 소스코드를 이용하여 설치도 가능합니다. [http://www.tcpdump.org/](http://www.tcpdump.org/)
 - pcap
