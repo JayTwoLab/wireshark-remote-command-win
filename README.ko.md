@@ -26,23 +26,23 @@
 
 ## 리눅스 (원격 시스템, 대상 운용체제)
 
-- 프로그램 설치하는 방법
+### Installation
+
 - [tcpdump](http://www.tcpdump.org/)
-  - sudo yum install tupcump (Fedora, CentOS, Redhat)
-  - sudo apt-get install tcpdump (Ubuntu, Debian)
+  - `sudo yum install tupcump` (Fedora, CentOS, Redhat)
+  - `sudo apt-get install tcpdump` (Ubuntu, Debian)
   - 또는 소스코드를 이용하여 설치도 가능합니다. [http://www.tcpdump.org/](http://www.tcpdump.org/)
 - pcap
   - 대부분의 경우 tcpdump를 설치하면 함께 설치 됩니다.
-  - sudo yum install libpcap (Fedora, CentOS, Redhat)
-  - sudo apt-get install libpcap (Ubuntu, Debian)
+  - `sudo yum install libpcap` (Fedora, CentOS, Redhat)
+  - `sudo apt-get install libpcap` (Ubuntu, Debian)
 - ssh
   - OpenSSH 서버 설치하기
-    - sudo apt-get install openssh-server (Ubuntu)
-      - sudo service ssh status (openssh 서버 상태 점검)
-      - sudo service ssh restart (openssh 서버 재구동)
-    - sudo dnf install openssh-server (Fedora. yum install openssh-server 로 설치할 수도 있음)
-      - sudo systemctl start sshd.service (openssh 서버 구동)
-      - sudo systemctl enable sshd.service (openssh 서버 사용 가능)
+    - `sudo apt-get install openssh-server` (Ubuntu)
+    - `sudo dnf install openssh-server` (Fedora. `yum install openssh-server` 로 설치할 수도 있음)
+  - Start OpenSSH daemon
+    - `sudo systemctl start sshd.service` (start openssh server)
+    - `sudo systemctl enable sshd.service` (enable openssh server)
 
 ## 윈도우즈에서 명령 제작
 

@@ -26,23 +26,23 @@
 
 ## Linux (Remote System, Target OS)
 
-- How to install program
+### Installation
+
 - [tcpdump](http://www.tcpdump.org/)
-  - sudo yum install tupcump (Fedora, CentOS, Redhat)
-  - sudo apt-get install tcpdump (Ubuntu, Debian)
+  - `sudo yum install tcpdump` (Fedora, CentOS, Redhat)
+  - `sudo apt-get install tcpdump` (Ubuntu, Debian)
   - Or install using source code [http://www.tcpdump.org/](http://www.tcpdump.org/)
 - pcap
   - Most of cases are installed together when you install tcpdump.
-  - sudo yum install libpcap (Fedora, CentOS, Redhat)
-  - sudo apt-get install libpcap (Ubuntu, Debian)
+  - `sudo yum install libpcap` (Fedora, CentOS, Redhat)
+  - `sudo apt-get install libpcap` (Ubuntu, Debian)
 - ssh
   - Install OpenSSH server
-    - sudo apt-get install openssh-server (Ubuntu)
-      - sudo service ssh status (check openssh server)
-      - sudo service ssh restart (restart openssh server)
-    - sudo dnf install openssh-server (Fedora. you can use yum install openssh-server)
-      - sudo systemctl start sshd.service (start openssh server)
-      - sudo systemctl enable sshd.service (enable openssh server)
+    - `sudo apt-get install openssh-server` (Ubuntu)
+    - `sudo dnf install openssh-server` (Fedora. you can use `yum install openssh-server`)
+  - Start OpenSSH daemon
+    - `sudo systemctl start sshd.service` (start openssh server)
+    - `sudo systemctl enable sshd.service` (enable openssh server)
 
 ## Create command file on Windows
 
