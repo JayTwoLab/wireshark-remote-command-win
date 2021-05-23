@@ -74,7 +74,7 @@
     - REMOTE_ACCOUNT : 리눅스 계정 (**root 계정을 사용하세요. (또는 슈퍼유저)**)
     - REMOTE_PASSWORD : 리눅스 계정의 암호
     - REMOTE_INTERFACE : 리눅스 이더넷 인터페이스 (eth0, wlan0 등)
-      - 만약 이것이 무엇인지 모르시면 '<b>ifconfig</b>' 명령을 리눅스에서 입력해 보세요.
+      - 만약 이것이 무엇인지 모르시면 **`ifconfig`** / **`ip a`** 명령을 리눅스에서 입력해 보세요.
   - 윈도우즈
     - WIRESHARK_PATH : 설치된 와이어샤크 실행 파일이 있는 경로 (wireshark.exe).
     - PLINK_PATH : 설치된 와이어샤크 plink 파일이 있는 경로 (plink.exe).
